@@ -15,3 +15,5 @@ compile : g++ -o Executabal Parser.cpp Tokenizer.cpp Tokenizer.h
 ./Executable "PROD( arg1, arg2)"
 
 arg1 and arg 2 can be SUM(arg, arg) | DIFF(arg, arg) | PROD(arg, arg) | DIV(arg, arg)
+
+Ex: SUM( PROD( 2, 4), SUM( DIV(4, 2), DIFF(3,2)))
