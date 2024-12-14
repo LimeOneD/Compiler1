@@ -3,6 +3,7 @@ A simple implementation of Tokenizer and Parser in c++
 
 
 How to use :
+
 compile : g++ -o Executabal Parser.cpp Tokenizer.cpp Tokenizer.h 
 
 ./Executable "SUM( arg1, arg2)"
